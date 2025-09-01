@@ -1,1 +1,16 @@
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        // No classpath for AGP here since we prefer plugins DSL at module level
+    }
+}
 
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
